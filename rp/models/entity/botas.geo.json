@@ -1,0 +1,228 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Botas_abismite",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [
+						0,
+						12,
+						0
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "root",
+					"pivot": [
+						-1.9,
+						12,
+						0
+					]
+				},
+				{
+					"name": "cright_boots",
+					"parent": "rightLeg",
+					"pivot": [
+						-1.9,
+						12,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3.98342,
+								-0.00503,
+								-2.04522
+							],
+							"size": [
+								4.09045,
+								12.25125,
+								4.09045
+							],
+							"inflate": 0.25,
+							"uv": {
+								"north": {
+									"uv": [
+										8,
+										8
+									],
+									"uv_size": [
+										8,
+										24
+									]
+								},
+								"east": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										8,
+										24
+									]
+								},
+								"south": {
+									"uv": [
+										24,
+										8
+									],
+									"uv_size": [
+										-8,
+										24
+									]
+								},
+								"west": {
+									"uv": [
+										24,
+										8
+									],
+									"uv_size": [
+										8,
+										24
+									]
+								},
+								"up": {
+									"uv": [
+										4,
+										16
+									],
+									"uv_size": [
+										4,
+										4
+									]
+								},
+								"down": {
+									"uv": [
+										16,
+										8
+									],
+									"uv_size": [
+										8,
+										-8
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "root",
+					"pivot": [
+						1.9,
+						12,
+						0
+					]
+				},
+				{
+					"name": "cleft_boots",
+					"parent": "leftLeg",
+					"pivot": [
+						1.9,
+						12,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-0.10703,
+								-0.00503,
+								-2.04522
+							],
+							"size": [
+								4.09045,
+								12.25125,
+								4.09045
+							],
+							"inflate": 0.25,
+							"uv": {
+								"north": {
+									"uv": [
+										16,
+										8
+									],
+									"uv_size": [
+										-8,
+										24
+									]
+								},
+								"east": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										8,
+										24
+									]
+								},
+								"south": {
+									"uv": [
+										32,
+										8
+									],
+									"uv_size": [
+										-8,
+										24
+									]
+								},
+								"west": {
+									"uv": [
+										16,
+										8
+									],
+									"uv_size": [
+										8,
+										24
+									]
+								},
+								"up": {
+									"uv": [
+										4,
+										16
+									],
+									"uv_size": [
+										4,
+										4
+									]
+								},
+								"down": {
+									"uv": [
+										16,
+										8
+									],
+									"uv_size": [
+										8,
+										-8
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

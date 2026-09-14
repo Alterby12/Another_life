@@ -1,0 +1,81 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.a.breathe": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/blaze/breathe1",
+				"sounds/mob/blaze/breathe2",
+				"sounds/mob/blaze/breathe3",
+				"sounds/mob/blaze/breathe4"
+			]
+		},
+		"mob.a.death": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/blaze/death"
+			]
+		},
+		"mob.a.hit": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/blaze/hit1",
+				"sounds/mob/blaze/hit2",
+				"sounds/mob/blaze/hit3",
+				"sounds/mob/blaze/hit4"
+			]
+		},
+		"mob.a.shoot": {
+			"sounds": [
+				{
+					"name": "sounds/mob/ghast/fireball4",
+					"volume": 3
+				}
+			],
+			"subtitle": "subtitles.entity.blaze.shoot"
+		},
+		"death.anim": {
+			"sounds": [
+				{
+					"name": "sounds/custom/cataclysm_sonido",
+					"volume": 3
+				}
+			],
+			"category": "music"
+		},
+		"mob.tnt_primed.zpig": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/tnt_primed/zpig1",
+				"sounds/mob/tnt_primed/zpig2",
+				"sounds/mob/tnt_primed/zpig3",
+				"sounds/mob/tnt_primed/zpig4"
+			]
+		},
+		"mob.tnt_primed.zpigangry": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/tnt_primed/zpigangry1",
+				"sounds/mob/tnt_primed/zpigangry2",
+				"sounds/mob/tnt_primed/zpigangry3",
+				"sounds/mob/tnt_primed/zpigangry4"
+			]
+		},
+		"mob.tnt_primed.zpigdeath": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/tnt_primed/zpigdeath"
+			]
+		},
+		"mob.tnt_primed.zpighurt": {
+			"category": "hostile",
+			"sounds": [
+				{
+					"name": "sounds/mob/tnt_primed/zpighurt1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/tnt_primed/zpighurt2"
+			]
+		}
+	}
+}

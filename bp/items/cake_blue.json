@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:cake_blue",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:icon": "bridge_cake_blue",
+			"minecraft:use_modifiers": {
+				"use_duration": 1.6
+			},
+			"minecraft:food": {
+				"nutrition": 6,
+				"saturation_modifier": 1,
+				"can_always_eat": true
+			},
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "quartz:twisted_blaze",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/126377"
+			},
+			"geometry": {
+				"default": "geometry.twisted_blaze"
+			},
+			"render_controllers": [
+				"controller.render.twisted_blaze"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"state": "animation.twisted_blaze.state",
+				"move_controller": "controller.animation.twisted_blaze.state"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				]
+			}
+		}
+	}
+}

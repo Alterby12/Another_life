@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bridge:amatysth_pearl",
+			"materials": {
+				"default": "ender_pearl"
+			},
+			"textures": {
+				"default": "textures/entity/123105"
+			},
+			"geometry": {
+				"default": "geometry.item_sprite"
+			},
+			"render_controllers": [
+				"controller.render.item_sprite"
+			],
+			"scripts": {
+				"animate": [
+					"flying"
+				]
+			},
+			"animations": {
+				"flying": "animation.actor.billboard"
+			}
+		}
+	}
+}

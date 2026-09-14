@@ -1,0 +1,39 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"quartz:a": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.a.breathe",
+					"hurt": "mob.a.hit",
+					"death": "mob.a.death",
+					"shoot": "mob.a.shoot"
+				}
+			},
+			"quartz:tnt_primed": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.tnt_primed.zpig",
+					"hurt": "mob.tnt_primed.zpighurt",
+					"death": "mob.tnt_primed.zpigdeath",
+					"mad": {
+						"sound": "mob.tnt_primed.zpigangry",
+						"volume": 2,
+						"pitch": [
+							1.44,
+							2.16
+						]
+					}
+				}
+			}
+		}
+	}
+}

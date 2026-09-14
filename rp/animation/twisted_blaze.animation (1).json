@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.twisted_blaze.state": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"hoop_thrid": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"1.5": [
+							0,
+							180,
+							0
+						]
+					}
+				},
+				"hoop_two": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"1.5": [
+							0,
+							-180,
+							0
+						]
+					}
+				},
+				"hoop": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"1.5": [
+							-180,
+							0,
+							0
+						]
+					}
+				}
+			}
+		}
+	}
+}

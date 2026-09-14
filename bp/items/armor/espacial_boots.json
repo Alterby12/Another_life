@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:espacial_boots",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.boots"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "armor_feet"
+			},
+			"minecraft:icon": "bridge_espacial_boots",
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet",
+				"protection": 14
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:netherite_tier",
+					"minecraft:is_armor"
+				]
+			},
+			"minecraft:fire_resistant": {
+				"value": true
+			}
+		}
+	}
+}

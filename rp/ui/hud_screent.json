@@ -1,0 +1,136 @@
+{
+  "namespace": "hud",
+  "hud_title_text/title_frame/title": {
+    "modifications": [
+      {
+        "array_name": "bindings",
+        "operation": "insert_back",
+        "value": [
+          {
+            "binding_type": "view",
+            "source_property_name": "((#hud_title_text_string - '§r') = #hud_title_text_string)",
+            "target_property_name": "#visible"
+          }
+        ]
+      }
+    ]
+  },
+  "deve_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "deve_cataclysmt@hud.deve_title": {
+          "$stay_duration": 4,
+          "$fade_in_duration": 1,
+          "$fade_out_duration": 1,
+          "$texture": "texture/ui/cataclysmt",
+          "$flag": "§r",
+          "$size": [
+            "40%",
+            "40%"
+          ],
+          "$offset": [
+            0,
+            0
+          ],
+          "$anchor_to": "center",
+          "$anchor_from": "center",
+          "$uv": "@hud.deve_aseprite_animation",
+          "$uv_size_re": [
+            250,
+            250
+          ]
+        }
+      }
+    ]
+  },
+  "deve_title": {
+    "type": "image",
+    "force_texture_reload": true,
+    "layer": 31,
+    "offset": "$offset",
+    "size": "$size",
+    "texture": "$texture",
+    "anchor_from": "$anchor_from",
+    "anchor_to": "$anchor_to",
+    "$flag|default": "black",
+    "alpha": 6,
+    "anims": [
+      "@hud.in_animation"
+    ],
+    "uv": "$uv",
+    "$uv|default": "@hud.deve_aseprite_animation",
+    "uv_size": "$uv_size_re",
+    "$uv_size_re|default": [
+      82,
+      82
+    ],
+    "disable_anim_fast_forward": true,
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = $flag)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "deve_aseprite_animation": {
+    "anim_type": "aseprite_flip_book",
+    "initial_uv": [
+      0,
+      0
+    ]
+  },
+  "in_animation": {
+    "anim_type": "alpha",
+    "easing": "linear",
+    "duration": "$fade_in_duration",
+    "from": 0,
+    "to": 1,
+    "next": "@hud.wait_animation"
+  },
+  "wait_animation": {
+    "anim_type": "wait",
+    "duration": "$stay_duration",
+    "next": "@hud.out_animation"
+  },
+  "out_animation": {
+    "anim_type": "alpha",
+    "easing": "linear",
+    "duration": "$fade_out_duration",
+    "from": 1,
+    "to": 0,
+    "destroy_at_end": "image_element"
+  },
+  "deve_panel_factory": {
+    "type": "panel",
+    "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+        "hud_title_text": "deve_panel@hud.deve_panel"
+      }
+    }
+  },
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "deve_panel_factory@hud.deve_panel_factory": {}
+          }
+        ]
+      }
+    ]
+  }
+}

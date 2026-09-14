@@ -1,0 +1,69 @@
+{
+	"resource_pack_name": "Paradox",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"Primal_trielemental_helmet": {
+			"textures": "textures/items/abis_helmet"
+		},
+		"Primal_trielemental_chestplate": {
+			"textures": "textures/items/abis_chestplate"
+		},
+		"Primal_trielemental_leggings": {
+			"textures": "textures/items/abis_leggings"
+		},
+		"Primal_trielemental_boots": {
+			"textures": "textures/items/abis_boots"
+		},
+		"bridge_amuleto_berserker": {
+			"textures": "textures/items/47702"
+		},
+		"bridge_amuleto_speed": {
+			"textures": "textures/items/47703"
+		},
+		"bridge_cake_blue": {
+			"textures": "textures/items/80903"
+		},
+		"bridge_medic_in_a_jar": {
+			"textures": "textures/items/80905"
+		},
+		"bridge_espacial_helmet": {
+			"textures": "textures/items/pa_casc_espacial"
+		},
+		"bridge_espacial_chestplate": {
+			"textures": "textures/items/pa_pechara_espacial"
+		},
+		"bridge_espacial_leggings": {
+			"textures": "textures/items/pa_pantalones_espaciales"
+		},
+		"bridge_espacial_boots": {
+			"textures": "textures/items/pa_armaduraespacial"
+		},
+		"bridge_infernal_axe": {
+			"textures": "textures/items/82847"
+		},
+		"bridge_mystical_totem": {
+			"textures": "textures/items/82294"
+		},
+		"bridge_award_totem": {
+			"textures": "textures/items/82293"
+		},
+		"bridge_antidoto": {
+			"textures": "textures/items/91360"
+		},
+		"bridge_blaze_totem": {
+			"textures": "textures/items/82269"
+		},
+		"bridge_infernal_blessing": {
+			"textures": "textures/items/92853"
+		},
+		"bridge_amatysth": {
+			"textures": "textures/items/amatysht_pearl"
+		},
+		"quartz_twisted_fireball": {
+			"textures": "textures/items/twisted_fireball"
+		},
+		"quartz_marine_sword": {
+			"textures": "textures/items/127729"
+		}
+	}
+}
